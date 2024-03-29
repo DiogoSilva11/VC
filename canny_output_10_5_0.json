@@ -1,0 +1,304 @@
+{
+    "results": [
+        {
+            "file_name": "0_4UMA_original_60479_1609884606260.jpg",
+            "num_colors": 29,
+            "num_detections": 29,
+            "detected_objects": []
+        },
+        {
+            "file_name": "0_hWqG_original_3460_1609895876431.jpg",
+            "num_colors": 38,
+            "num_detections": 38,
+            "detected_objects": []
+        },
+        {
+            "file_name": "0_hXAf_original_3460_1609895891398.jpg",
+            "num_colors": 39,
+            "num_detections": 39,
+            "detected_objects": []
+        },
+        {
+            "file_name": "0_MnDu_original_15254_1609945083260.jpg",
+            "num_colors": 67,
+            "num_detections": 67,
+            "detected_objects": []
+        },
+        {
+            "file_name": "0_neOX_original_3460_1609895884436.jpg",
+            "num_colors": 58,
+            "num_detections": 58,
+            "detected_objects": []
+        },
+        {
+            "file_name": "0_rGIB_original_15254_1609945086846.jpg",
+            "num_colors": 96,
+            "num_detections": 96,
+            "detected_objects": []
+        },
+        {
+            "file_name": "1_utXT_original-test_1609981179609.jpg",
+            "num_colors": 102,
+            "num_detections": 102,
+            "detected_objects": []
+        },
+        {
+            "file_name": "2_7mUR_original-test_1609981034838.jpg",
+            "num_colors": 107,
+            "num_detections": 107,
+            "detected_objects": []
+        },
+        {
+            "file_name": "2_GPI9_original-test_1609981038128.jpg",
+            "num_colors": 86,
+            "num_detections": 86,
+            "detected_objects": []
+        },
+        {
+            "file_name": "2_lXUX_original-test_1609981023743.jpg",
+            "num_colors": 50,
+            "num_detections": 50,
+            "detected_objects": []
+        },
+        {
+            "file_name": "2_vUVe_original-test_1609981148397.jpg",
+            "num_colors": 99,
+            "num_detections": 99,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_001711.jpg",
+            "num_colors": 209,
+            "num_detections": 209,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_001800.jpg",
+            "num_colors": 86,
+            "num_detections": 86,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_001818.jpg",
+            "num_colors": 58,
+            "num_detections": 58,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_001831.jpg",
+            "num_colors": 114,
+            "num_detections": 114,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_001840.jpg",
+            "num_colors": 168,
+            "num_detections": 168,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_001904.jpg",
+            "num_colors": 308,
+            "num_detections": 308,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_002055.jpg",
+            "num_colors": 383,
+            "num_detections": 383,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_002243.jpg",
+            "num_colors": 320,
+            "num_detections": 320,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_002309.jpg",
+            "num_colors": 14,
+            "num_detections": 14,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_002319.jpg",
+            "num_colors": 298,
+            "num_detections": 298,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_002506.jpg",
+            "num_colors": 446,
+            "num_detections": 446,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_002529.jpg",
+            "num_colors": 970,
+            "num_detections": 970,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_002953.jpg",
+            "num_colors": 126,
+            "num_detections": 126,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_002957.jpg",
+            "num_colors": 95,
+            "num_detections": 95,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_003003.jpg",
+            "num_colors": 114,
+            "num_detections": 114,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_003218.jpg",
+            "num_colors": 273,
+            "num_detections": 273,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_003844.jpg",
+            "num_colors": 140,
+            "num_detections": 140,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_140637.jpg",
+            "num_colors": 303,
+            "num_detections": 303,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_140925.jpg",
+            "num_colors": 64,
+            "num_detections": 64,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_233659.jpg",
+            "num_colors": 103,
+            "num_detections": 103,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_233719.jpg",
+            "num_colors": 228,
+            "num_detections": 228,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_233804.jpg",
+            "num_colors": 341,
+            "num_detections": 341,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_233822.jpg",
+            "num_colors": 129,
+            "num_detections": 129,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_234032.jpg",
+            "num_colors": 134,
+            "num_detections": 134,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_234054.jpg",
+            "num_colors": 161,
+            "num_detections": 161,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_234114.jpg",
+            "num_colors": 163,
+            "num_detections": 163,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_234242.jpg",
+            "num_colors": 2241,
+            "num_detections": 2241,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_234528.jpg",
+            "num_colors": 135,
+            "num_detections": 135,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_234550.jpg",
+            "num_colors": 333,
+            "num_detections": 333,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_234607.jpg",
+            "num_colors": 273,
+            "num_detections": 273,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_234711.jpg",
+            "num_colors": 188,
+            "num_detections": 188,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_234932.jpg",
+            "num_colors": 180,
+            "num_detections": 180,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_234945.jpg",
+            "num_colors": 160,
+            "num_detections": 160,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_234959.jpg",
+            "num_colors": 7,
+            "num_detections": 7,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_235029.jpg",
+            "num_colors": 258,
+            "num_detections": 258,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_235047.jpg",
+            "num_colors": 139,
+            "num_detections": 139,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_235241.jpg",
+            "num_colors": 215,
+            "num_detections": 215,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201127_235418.jpg",
+            "num_colors": 262,
+            "num_detections": 262,
+            "detected_objects": []
+        },
+        {
+            "file_name": "IMG_20201203_091752.jpg",
+            "num_colors": 189,
+            "num_detections": 189,
+            "detected_objects": []
+        }
+    ]
+}

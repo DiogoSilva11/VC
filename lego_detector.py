@@ -71,8 +71,8 @@ def canny_edges(gray):
     return canny
 
 def process_image(image_path):
-    image = cv2.imread(image_path)
-    image = cv2.resize(image, (0, 0), fx=0.15, fy=0.15)
+    original_image = cv2.imread(image_path)
+    image = cv2.resize(original_image, (0, 0), fx=0.15, fy=0.15)
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
@@ -104,17 +104,17 @@ def process_image(image_path):
     for contour in contours:
         x, y, w, h = cv2.boundingRect(contour)
         detections.append({"xmin": x, "ymin": y, "xmax": x + w, "ymax": y + h})
-        #roi = image[y:y+h, x:x+w]
-        #medium_rgb = np.mean(roi, axis=(0, 1)).astype(int)
-        #colors.append(medium_rgb)
-    #unique_colors = count_unique_colors(colors)
+        roi = original_image[y:y+h, x:x+w]
+        medium_rgb = np.mean(roi, axis=(0, 1)).astype(int)
+        colors.append(medium_rgb)
+    unique_colors = count_unique_colors(colors)
 
     print(image_path)
-    #cv2.imshow(image_path, image)
-    #cv2.waitKey(0)
-    #cv2.destroyAllWindows()
+    cv2.imshow(image_path, image)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
 
-    return len(detections), detections, []
+    return len(detections), detections, unique_colors
 
 if __name__ == "__main__":
     images_dir = './samples'

@@ -101,7 +101,7 @@ def is_intersected(square1, square2, ratio_threshold):
     else:
         return False
 
-def filter_contours(contours, min_area=400, min_length=15, ratio_threshold=0.5):
+def filter_contours(contours, min_area=400, min_length=15, ratio_threshold=0.4):
     contours = sorted(contours, key=cv2.contourArea, reverse=True)
     removed = []
     for i, contour in enumerate(contours):

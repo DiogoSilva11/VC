@@ -5,14 +5,16 @@ import numpy as np
 
 # ----------------------------------------------
 
-def get_image_complexity(gray, threshold=300):
+def get_image_complexity(gray, threshold1=280, threshold2=900):
     sift = cv2.SIFT_create()
     keypoints, _ = sift.detectAndCompute(gray, None)
     num_keypoints = len(keypoints)
-    if num_keypoints < threshold:
-        complexity = "Simple"
+    if num_keypoints < threshold1:
+        complexity = 1
+    elif num_keypoints < threshold2:
+        complexity = 2
     else:
-        complexity = "Complex"
+        complexity = 3
     return complexity, num_keypoints
 
 # ----------------------------------------------
@@ -46,7 +48,7 @@ def background_median(hsv, hue_tolerance=20, saturation_tolerance=90, value_tole
 # ----------------------------------------------
 
 def kmeans_segments(image, k=50):
-    reshaped_image = image.reshape((-1,1))
+    reshaped_image = image.reshape((-1, 3))
     reshaped_image = np.float32(reshaped_image)
     criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 10, 1.0)
     _, label, center = cv2.kmeans(reshaped_image, k, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
@@ -57,7 +59,6 @@ def kmeans_segments(image, k=50):
 
 def canny_edges(gray, blur_kernel=(7, 7), low_threshold=100, high_threshold=200):
     gaussian = cv2.GaussianBlur(gray, blur_kernel, 0)
-    #kmeans = kmeans_segments(gaussian)
     canny = cv2.Canny(gaussian, low_threshold, high_threshold)
     return canny
 
@@ -65,7 +66,6 @@ def canny_edges(gray, blur_kernel=(7, 7), low_threshold=100, high_threshold=200)
 
 def grab_cut(image, blur_kernel=(7, 7), bb_size=50, iterations=5):
     gaussian = cv2.GaussianBlur(image, blur_kernel, 0)
-    gaussian = image
     mask = np.zeros(gaussian.shape[:2], np.uint8)
     bb = (bb_size, bb_size, gaussian.shape[1] - bb_size, gaussian.shape[0] - bb_size)
     bgModel = np.zeros((1, 65), np.float64)

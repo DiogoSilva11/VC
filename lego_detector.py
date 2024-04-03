@@ -3,6 +3,7 @@ import os
 import json
 from utils import *
 
+
 def process_image(image_path):
     original_image = cv2.imread(image_path)
     original_image = cv2.resize(original_image, (0, 0), fx = 0.15, fy = 0.15)
@@ -18,13 +19,15 @@ def process_image(image_path):
     contours = filter_contours(contours)
     detections = []
     colors = []
+    color_index = 0
     for contour in contours:
+        color_index += 1
         x, y, w, h = cv2.boundingRect(contour)
         cv2.rectangle(image, (x, y), (x + w, y + h), (255, 255, 0), 2)
         detections.append({"xmin": x, "ymin": y, "xmax": x + w, "ymax": y + h})
         roi = original_image[y:y+h, x:x+w]
-        medium_rgb = np.mean(roi, axis=(0, 1)).astype(int)
-        colors.append(medium_rgb)
+        lego_color = calculate_lego_color(roi)
+        colors.append(lego_color)
     unique_colors = count_unique_colors(colors)
 
     print(image_path)
@@ -32,6 +35,7 @@ def process_image(image_path):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
     return len(detections), detections, unique_colors
+
 
 if __name__ == "__main__":
     images_dir = './samples'

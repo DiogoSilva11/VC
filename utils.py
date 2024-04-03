@@ -2,6 +2,7 @@
 
 import cv2
 import numpy as np
+import time
 
 # ----------------------------------------------
 
@@ -122,9 +123,19 @@ def filter_contours(contours, min_area=400, min_length=15, ratio_threshold=0.5):
 
 def similar_colors(color1, color2, tolerance):
     distance = np.linalg.norm(color1 - color2)
+
+    """
+    display_color(color1,color1)
+    display_color(color2,color2)
+    print("Similar:", distance <= tolerance, "Distance:", distance)
+    cv2.waitKey(0)
+    cv2.destroyWindow(str(color1))
+    cv2.destroyWindow(str(color2))
+    """
     return distance <= tolerance
 
-def count_unique_colors(object_colors, tolerance=50):
+
+def count_unique_colors(object_colors, tolerance=30):
     unique_colors = []
     for color in object_colors:
         is_unique = True
@@ -137,3 +148,26 @@ def count_unique_colors(object_colors, tolerance=50):
     return len(unique_colors)
 
 # ----------------------------------------------
+
+def display_color(color, index):
+    height, width = 100, 100
+    color_image = np.zeros((height, width, 3), np.uint8)
+    color_image[:, :] = color
+    cv2.imshow(str(index), color_image)
+
+
+# ----------------------------------------------
+def calculate_lego_color(roi):
+    lego_color = central_area_color(roi)
+    return lego_color
+
+def central_area_color(roi):
+    height, width, _ = roi.shape
+    central_area = roi[height//4:3*height//4, width//4:3*width//4]
+    central_color = median_color(central_area)
+    return central_color
+
+def median_color(roi):
+    median_color = np.median(roi, axis=(0, 1)).astype(int)
+    return median_color
+

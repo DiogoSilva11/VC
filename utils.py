@@ -89,7 +89,7 @@ def calculate_intersection_area(square1, square2):
     intersection_area = w_intersect * h_intersect
     return intersection_area
 
-def is_intersected(square1, square2,ratio_threshold):
+def is_intersected(square1, square2, ratio_threshold):
     area_square1 = square1[2] * square1[3]
     area_square2 = square2[2] * square2[3]
     area_intersection = calculate_intersection_area(square1, square2)
@@ -100,7 +100,7 @@ def is_intersected(square1, square2,ratio_threshold):
     else:
         return False
 
-def filter_contours(contours, min_area=400, ratio_threshold=0.5):
+def filter_contours(contours, min_area=400, min_length=15, ratio_threshold=0.5):
     contours = sorted(contours, key=cv2.contourArea, reverse=True)
     removed = []
     for i, contour in enumerate(contours):
@@ -113,7 +113,7 @@ def filter_contours(contours, min_area=400, ratio_threshold=0.5):
                 break
             elif is_intersected((prev_x, prev_y, prev_w, prev_h),(x,y,w,h), ratio_threshold):
                 removed.append(j)
-        if inside_other_box or w * h < min_area:
+        if inside_other_box or w * h < min_area or w < min_length or h < min_length:
             removed.append(i)
     contours = [contour for i, contour in enumerate(contours) if i not in removed]
     return contours

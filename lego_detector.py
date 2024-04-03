@@ -16,7 +16,7 @@ def process_image(image_path):
     value_tolerance = 90
     blur_kernel = (5, 5)
     if complexity == 2:
-        hue_tolerance = 20
+        hue_tolerance = 5
         saturation_tolerance = 90
         value_tolerance = 120
         blur_kernel = (5, 5)
@@ -33,8 +33,8 @@ def process_image(image_path):
     high_threshold = 200
     if complexity == 2:
         blur_kernel = (5, 5)
-        low_threshold = 70
-        high_threshold = 150
+        low_threshold = 85
+        high_threshold = 180
     elif complexity == 3:
         blur_kernel = (11, 11)
         low_threshold = 90

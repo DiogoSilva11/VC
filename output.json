@@ -73,19 +73,13 @@
         },
         {
             "file_name": "1_utXT_original-test_1609981179609.jpg",
-            "num_colors": 2,
-            "num_detections": 2,
+            "num_colors": 1,
+            "num_detections": 1,
             "detected_objects": [
                 {
                     "xmin": 108,
                     "ymin": 192,
                     "xmax": 221,
-                    "ymax": 308
-                },
-                {
-                    "xmin": 192,
-                    "ymin": 244,
-                    "xmax": 254,
                     "ymax": 308
                 }
             ]
@@ -111,20 +105,14 @@
         },
         {
             "file_name": "2_GPI9_original-test_1609981038128.jpg",
-            "num_colors": 2,
-            "num_detections": 2,
+            "num_colors": 1,
+            "num_detections": 1,
             "detected_objects": [
                 {
                     "xmin": 189,
                     "ymin": 228,
                     "xmax": 248,
                     "ymax": 277
-                },
-                {
-                    "xmin": 133,
-                    "ymin": 215,
-                    "xmax": 176,
-                    "ymax": 228
                 }
             ]
         },
@@ -224,18 +212,24 @@
         {
             "file_name": "IMG_20201127_001800.jpg",
             "num_colors": 4,
-            "num_detections": 11,
+            "num_detections": 10,
             "detected_objects": [
                 {
-                    "xmin": 162,
-                    "ymin": 122,
-                    "xmax": 266,
-                    "ymax": 181
+                    "xmin": 144,
+                    "ymin": 233,
+                    "xmax": 219,
+                    "ymax": 320
                 },
                 {
-                    "xmin": 68,
+                    "xmin": 83,
+                    "ymin": 212,
+                    "xmax": 144,
+                    "ymax": 270
+                },
+                {
+                    "xmin": 67,
                     "ymin": 102,
-                    "xmax": 130,
+                    "xmax": 131,
                     "ymax": 161
                 },
                 {
@@ -245,63 +239,63 @@
                     "ymax": 222
                 },
                 {
-                    "xmin": 105,
-                    "ymin": 349,
-                    "xmax": 147,
-                    "ymax": 375
+                    "xmin": 63,
+                    "ymin": 352,
+                    "xmax": 124,
+                    "ymax": 468
                 },
                 {
-                    "xmin": 96,
-                    "ymin": 377,
-                    "xmax": 155,
-                    "ymax": 464
+                    "xmin": 100,
+                    "ymin": 342,
+                    "xmax": 156,
+                    "ymax": 378
                 },
                 {
-                    "xmin": 144,
-                    "ymin": 233,
-                    "xmax": 218,
-                    "ymax": 307
+                    "xmin": 161,
+                    "ymin": 122,
+                    "xmax": 266,
+                    "ymax": 181
                 },
                 {
-                    "xmin": 83,
-                    "ymin": 212,
-                    "xmax": 144,
-                    "ymax": 270
-                },
-                {
-                    "xmin": 60,
-                    "ymin": 444,
-                    "xmax": 84,
-                    "ymax": 466
-                },
-                {
-                    "xmin": 144,
-                    "ymin": 301,
-                    "xmax": 186,
-                    "ymax": 320
-                },
-                {
-                    "xmin": 245,
+                    "xmin": 244,
                     "ymin": 277,
-                    "xmax": 419,
+                    "xmax": 435,
                     "ymax": 357
                 },
                 {
-                    "xmin": 307,
+                    "xmin": 33,
+                    "ymin": 175,
+                    "xmax": 79,
+                    "ymax": 194
+                },
+                {
+                    "xmin": 306,
                     "ymin": 583,
                     "xmax": 468,
-                    "ymax": 623
+                    "ymax": 624
                 }
             ]
         },
         {
             "file_name": "IMG_20201127_001818.jpg",
-            "num_colors": 4,
-            "num_detections": 8,
+            "num_colors": 5,
+            "num_detections": 9,
             "detected_objects": [
                 {
-                    "xmin": 340,
-                    "ymin": 185,
+                    "xmin": 72,
+                    "ymin": 98,
+                    "xmax": 135,
+                    "ymax": 188
+                },
+                {
+                    "xmin": 50,
+                    "ymin": 198,
+                    "xmax": 147,
+                    "ymax": 261
+                },
+                {
+                    "xmin": 339,
+                    "ymin": 184,
                     "xmax": 455,
                     "ymax": 245
                 },
@@ -309,13 +303,13 @@
                     "xmin": 343,
                     "ymin": 297,
                     "xmax": 414,
-                    "ymax": 383
+                    "ymax": 384
                 },
                 {
-                    "xmin": 50,
-                    "ymin": 198,
-                    "xmax": 143,
-                    "ymax": 261
+                    "xmin": 274,
+                    "ymin": 284,
+                    "xmax": 336,
+                    "ymax": 337
                 },
                 {
                     "xmin": 243,
@@ -330,20 +324,14 @@
                     "ymax": 534
                 },
                 {
-                    "xmin": 274,
-                    "ymin": 284,
-                    "xmax": 336,
-                    "ymax": 337
-                },
-                {
-                    "xmin": 80,
-                    "ymin": 98,
-                    "xmax": 135,
-                    "ymax": 188
+                    "xmin": 224,
+                    "ymin": 236,
+                    "xmax": 254,
+                    "ymax": 253
                 },
                 {
                     "xmin": 91,
-                    "ymin": 364,
+                    "ymin": 357,
                     "xmax": 198,
                     "ymax": 381
                 }
@@ -352,7 +340,7 @@
         {
             "file_name": "IMG_20201127_001831.jpg",
             "num_colors": 4,
-            "num_detections": 9,
+            "num_detections": 10,
             "detected_objects": [
                 {
                     "xmin": 277,
@@ -361,16 +349,16 @@
                     "ymax": 397
                 },
                 {
-                    "xmin": 397,
-                    "ymin": 202,
-                    "xmax": 530,
-                    "ymax": 319
+                    "xmin": 256,
+                    "ymin": 85,
+                    "xmax": 329,
+                    "ymax": 180
                 },
                 {
-                    "xmin": 184,
-                    "ymin": 58,
-                    "xmax": 235,
-                    "ymax": 164
+                    "xmin": 397,
+                    "ymin": 202,
+                    "xmax": 531,
+                    "ymax": 309
                 },
                 {
                     "xmin": 411,
@@ -379,41 +367,47 @@
                     "ymax": 201
                 },
                 {
-                    "xmin": 399,
-                    "ymin": 322,
-                    "xmax": 431,
-                    "ymax": 392
+                    "xmin": 393,
+                    "ymin": 310,
+                    "xmax": 439,
+                    "ymax": 403
                 },
                 {
-                    "xmin": 343,
-                    "ymin": 19,
-                    "xmax": 373,
-                    "ymax": 132
-                },
-                {
-                    "xmin": 256,
-                    "ymin": 85,
-                    "xmax": 329,
-                    "ymax": 179
-                },
-                {
-                    "xmin": 139,
-                    "ymin": 194,
+                    "xmin": 138,
+                    "ymin": 179,
                     "xmax": 187,
                     "ymax": 238
+                },
+                {
+                    "xmin": 184,
+                    "ymin": 57,
+                    "xmax": 235,
+                    "ymax": 144
                 },
                 {
                     "xmin": 87,
                     "ymin": 40,
                     "xmax": 178,
-                    "ymax": 125
+                    "ymax": 126
+                },
+                {
+                    "xmin": 342,
+                    "ymin": 19,
+                    "xmax": 373,
+                    "ymax": 115
+                },
+                {
+                    "xmin": 193,
+                    "ymin": 136,
+                    "xmax": 236,
+                    "ymax": 164
                 }
             ]
         },
         {
             "file_name": "IMG_20201127_001840.jpg",
             "num_colors": 2,
-            "num_detections": 5,
+            "num_detections": 4,
             "detected_objects": [
                 {
                     "xmin": 392,
@@ -438,12 +432,6 @@
                     "ymin": 123,
                     "xmax": 279,
                     "ymax": 212
-                },
-                {
-                    "xmin": 221,
-                    "ymin": 127,
-                    "xmax": 234,
-                    "ymax": 164
                 }
             ]
         },
@@ -481,14 +469,8 @@
         {
             "file_name": "IMG_20201127_002055.jpg",
             "num_colors": 7,
-            "num_detections": 22,
+            "num_detections": 18,
             "detected_objects": [
-                {
-                    "xmin": 374,
-                    "ymin": 0,
-                    "xmax": 468,
-                    "ymax": 166
-                },
                 {
                     "xmin": 82,
                     "ymin": 487,
@@ -496,40 +478,40 @@
                     "ymax": 570
                 },
                 {
-                    "xmin": 395,
-                    "ymin": 288,
-                    "xmax": 449,
-                    "ymax": 354
-                },
-                {
-                    "xmin": 9,
+                    "xmin": 8,
                     "ymin": 373,
                     "xmax": 86,
-                    "ymax": 418
+                    "ymax": 419
                 },
                 {
-                    "xmin": 310,
-                    "ymin": 89,
-                    "xmax": 426,
-                    "ymax": 194
+                    "xmin": 305,
+                    "ymin": 83,
+                    "xmax": 417,
+                    "ymax": 201
                 },
                 {
                     "xmin": 169,
-                    "ymin": 340,
-                    "xmax": 259,
+                    "ymin": 348,
+                    "xmax": 249,
                     "ymax": 403
+                },
+                {
+                    "xmin": 354,
+                    "ymin": 364,
+                    "xmax": 409,
+                    "ymax": 415
                 },
                 {
                     "xmin": 338,
                     "ymin": 429,
-                    "xmax": 391,
+                    "xmax": 392,
                     "ymax": 492
                 },
                 {
-                    "xmin": 67,
-                    "ymin": 82,
-                    "xmax": 156,
-                    "ymax": 147
+                    "xmin": 347,
+                    "ymin": 187,
+                    "xmax": 460,
+                    "ymax": 277
                 },
                 {
                     "xmin": 223,
@@ -538,82 +520,64 @@
                     "ymax": 472
                 },
                 {
+                    "xmin": 247,
+                    "ymin": 153,
+                    "xmax": 299,
+                    "ymax": 206
+                },
+                {
+                    "xmin": 143,
+                    "ymin": 156,
+                    "xmax": 193,
+                    "ymax": 189
+                },
+                {
+                    "xmin": 287,
+                    "ymin": 296,
+                    "xmax": 326,
+                    "ymax": 340
+                },
+                {
+                    "xmin": 215,
+                    "ymin": 226,
+                    "xmax": 273,
+                    "ymax": 280
+                },
+                {
+                    "xmin": 98,
+                    "ymin": 326,
+                    "xmax": 134,
+                    "ymax": 354
+                },
+                {
+                    "xmin": 36,
+                    "ymin": 215,
+                    "xmax": 139,
+                    "ymax": 323
+                },
+                {
+                    "xmin": 67,
+                    "ymin": 82,
+                    "xmax": 156,
+                    "ymax": 148
+                },
+                {
+                    "xmin": 66,
+                    "ymin": 425,
+                    "xmax": 135,
+                    "ymax": 474
+                },
+                {
                     "xmin": 282,
                     "ymin": 412,
                     "xmax": 327,
                     "ymax": 447
                 },
                 {
-                    "xmin": 247,
-                    "ymin": 153,
-                    "xmax": 299,
-                    "ymax": 205
-                },
-                {
-                    "xmin": 146,
-                    "ymin": 156,
-                    "xmax": 193,
-                    "ymax": 188
-                },
-                {
-                    "xmin": 218,
-                    "ymin": 230,
-                    "xmax": 264,
-                    "ymax": 277
-                },
-                {
-                    "xmin": 288,
-                    "ymin": 296,
-                    "xmax": 326,
-                    "ymax": 340
-                },
-                {
-                    "xmin": 97,
-                    "ymin": 326,
-                    "xmax": 134,
-                    "ymax": 353
-                },
-                {
-                    "xmin": 16,
-                    "ymin": 223,
-                    "xmax": 102,
-                    "ymax": 314
-                },
-                {
-                    "xmin": 348,
-                    "ymin": 206,
-                    "xmax": 430,
-                    "ymax": 277
-                },
-                {
-                    "xmin": 66,
-                    "ymin": 425,
-                    "xmax": 134,
-                    "ymax": 474
-                },
-                {
-                    "xmin": 420,
-                    "ymin": 187,
-                    "xmax": 460,
-                    "ymax": 230
-                },
-                {
-                    "xmin": 64,
-                    "ymin": 269,
-                    "xmax": 138,
-                    "ymax": 322
-                },
-                {
-                    "xmin": 81,
-                    "ymin": 214,
-                    "xmax": 137,
-                    "ymax": 268
-                },
-                {
-                    "xmin": 354,
-                    "ymin": 364,
-                    "xmax": 409,
-                    "ymax": 415
+                    "xmin": 395,
+                    "ymin": 288,
+                    "xmax": 450,
+                    "ymax": 354
                 }
             ]
         },
@@ -656,26 +620,26 @@
         },
         {
             "file_name": "IMG_20201127_002309.jpg",
-            "num_colors": 4,
-            "num_detections": 10,
+            "num_colors": 5,
+            "num_detections": 16,
             "detected_objects": [
                 {
-                    "xmin": 119,
-                    "ymin": 319,
-                    "xmax": 203,
-                    "ymax": 386
+                    "xmin": 79,
+                    "ymin": 131,
+                    "xmax": 144,
+                    "ymax": 243
                 },
                 {
-                    "xmin": 384,
-                    "ymin": 535,
-                    "xmax": 433,
-                    "ymax": 568
+                    "xmin": 114,
+                    "ymin": 314,
+                    "xmax": 216,
+                    "ymax": 390
                 },
                 {
-                    "xmin": 81,
-                    "ymin": 458,
-                    "xmax": 133,
-                    "ymax": 482
+                    "xmin": 130,
+                    "ymin": 95,
+                    "xmax": 254,
+                    "ymax": 130
                 },
                 {
                     "xmin": 328,
@@ -686,36 +650,72 @@
                 {
                     "xmin": 238,
                     "ymin": 263,
-                    "xmax": 275,
+                    "xmax": 280,
                     "ymax": 293
                 },
                 {
-                    "xmin": 130,
-                    "ymin": 95,
-                    "xmax": 254,
-                    "ymax": 130
+                    "xmin": 270,
+                    "ymin": 268,
+                    "xmax": 310,
+                    "ymax": 333
                 },
                 {
-                    "xmin": 373,
-                    "ymin": 214,
-                    "xmax": 392,
-                    "ymax": 255
+                    "xmin": 233,
+                    "ymin": 285,
+                    "xmax": 269,
+                    "ymax": 333
+                },
+                {
+                    "xmin": 372,
+                    "ymin": 213,
+                    "xmax": 433,
+                    "ymax": 264
                 },
                 {
                     "xmin": 210,
                     "ymin": 145,
-                    "xmax": 321,
-                    "ymax": 245
+                    "xmax": 319,
+                    "ymax": 253
                 },
                 {
-                    "xmin": 79,
-                    "ymin": 131,
-                    "xmax": 144,
-                    "ymax": 244
+                    "xmin": 411,
+                    "ymin": 400,
+                    "xmax": 445,
+                    "ymax": 493
                 },
                 {
-                    "xmin": 299,
-                    "ymin": 446,
+                    "xmin": 267,
+                    "ymin": 589,
+                    "xmax": 290,
+                    "ymax": 618
+                },
+                {
+                    "xmin": 1,
+                    "ymin": 568,
+                    "xmax": 30,
+                    "ymax": 583
+                },
+                {
+                    "xmin": 111,
+                    "ymin": 577,
+                    "xmax": 129,
+                    "ymax": 600
+                },
+                {
+                    "xmin": 318,
+                    "ymin": 465,
+                    "xmax": 423,
+                    "ymax": 524
+                },
+                {
+                    "xmin": 304,
+                    "ymin": 515,
+                    "xmax": 435,
+                    "ymax": 550
+                },
+                {
+                    "xmin": 298,
+                    "ymin": 443,
                     "xmax": 333,
                     "ymax": 527
                 }
@@ -724,31 +724,49 @@
         {
             "file_name": "IMG_20201127_002319.jpg",
             "num_colors": 3,
-            "num_detections": 10,
+            "num_detections": 9,
             "detected_objects": [
                 {
-                    "xmin": 208,
-                    "ymin": 129,
-                    "xmax": 380,
-                    "ymax": 277
+                    "xmin": 20,
+                    "ymin": 243,
+                    "xmax": 228,
+                    "ymax": 392
                 },
                 {
                     "xmin": 314,
                     "ymin": 344,
                     "xmax": 443,
-                    "ymax": 439
+                    "ymax": 440
+                },
+                {
+                    "xmin": 8,
+                    "ymin": 124,
+                    "xmax": 159,
+                    "ymax": 242
                 },
                 {
                     "xmin": 224,
-                    "ymin": 431,
-                    "xmax": 317,
+                    "ymin": 427,
+                    "xmax": 318,
                     "ymax": 528
                 },
                 {
-                    "xmin": 374,
-                    "ymin": 558,
-                    "xmax": 468,
-                    "ymax": 624
+                    "xmin": 382,
+                    "ymin": 287,
+                    "xmax": 461,
+                    "ymax": 313
+                },
+                {
+                    "xmin": 393,
+                    "ymin": 125,
+                    "xmax": 450,
+                    "ymax": 168
+                },
+                {
+                    "xmin": 386,
+                    "ymin": 243,
+                    "xmax": 449,
+                    "ymax": 287
                 },
                 {
                     "xmin": 220,
@@ -757,34 +775,10 @@
                     "ymax": 112
                 },
                 {
-                    "xmin": 393,
-                    "ymin": 125,
-                    "xmax": 446,
-                    "ymax": 168
-                },
-                {
-                    "xmin": 387,
-                    "ymin": 243,
-                    "xmax": 446,
-                    "ymax": 287
-                },
-                {
-                    "xmin": 20,
-                    "ymin": 243,
-                    "xmax": 227,
-                    "ymax": 391
-                },
-                {
-                    "xmin": 8,
-                    "ymin": 124,
-                    "xmax": 160,
-                    "ymax": 242
-                },
-                {
-                    "xmin": 382,
-                    "ymin": 287,
-                    "xmax": 461,
-                    "ymax": 313
+                    "xmin": 208,
+                    "ymin": 129,
+                    "xmax": 380,
+                    "ymax": 277
                 }
             ]
         },
@@ -794,102 +788,96 @@
             "num_detections": 5,
             "detected_objects": [
                 {
-                    "xmin": 408,
-                    "ymin": 194,
-                    "xmax": 624,
-                    "ymax": 455
-                },
-                {
-                    "xmin": 49,
-                    "ymin": 147,
-                    "xmax": 138,
+                    "xmin": 48,
+                    "ymin": 145,
+                    "xmax": 144,
                     "ymax": 234
                 },
                 {
-                    "xmin": 293,
-                    "ymin": 81,
-                    "xmax": 384,
-                    "ymax": 176
+                    "xmin": 292,
+                    "ymin": 80,
+                    "xmax": 385,
+                    "ymax": 175
                 },
                 {
-                    "xmin": 82,
-                    "ymin": 31,
-                    "xmax": 161,
-                    "ymax": 104
+                    "xmin": 83,
+                    "ymin": 33,
+                    "xmax": 151,
+                    "ymax": 96
                 },
                 {
-                    "xmin": 283,
-                    "ymin": 175,
-                    "xmax": 364,
+                    "xmin": 284,
+                    "ymin": 177,
+                    "xmax": 359,
                     "ymax": 255
+                },
+                {
+                    "xmin": 382,
+                    "ymin": 359,
+                    "xmax": 439,
+                    "ymax": 436
                 }
             ]
         },
         {
             "file_name": "IMG_20201127_002529.jpg",
-            "num_colors": 5,
-            "num_detections": 9,
+            "num_colors": 4,
+            "num_detections": 8,
             "detected_objects": [
                 {
-                    "xmin": 43,
-                    "ymin": 291,
-                    "xmax": 217,
-                    "ymax": 404
+                    "xmin": 51,
+                    "ymin": 293,
+                    "xmax": 208,
+                    "ymax": 398
                 },
                 {
-                    "xmin": 509,
-                    "ymin": 353,
-                    "xmax": 615,
-                    "ymax": 405
+                    "xmin": 512,
+                    "ymin": 356,
+                    "xmax": 608,
+                    "ymax": 402
                 },
                 {
                     "xmin": 214,
-                    "ymin": 306,
-                    "xmax": 309,
-                    "ymax": 407
+                    "ymin": 315,
+                    "xmax": 302,
+                    "ymax": 404
                 },
                 {
-                    "xmin": 381,
-                    "ymin": 118,
+                    "xmin": 385,
+                    "ymin": 119,
                     "xmax": 478,
-                    "ymax": 230
+                    "ymax": 226
                 },
                 {
-                    "xmin": 547,
-                    "ymin": 258,
-                    "xmax": 606,
-                    "ymax": 307
+                    "xmin": 57,
+                    "ymin": 62,
+                    "xmax": 91,
+                    "ymax": 89
                 },
                 {
-                    "xmin": 184,
-                    "ymin": 75,
-                    "xmax": 241,
-                    "ymax": 107
+                    "xmin": 90,
+                    "ymin": 229,
+                    "xmax": 118,
+                    "ymax": 267
+                },
+                {
+                    "xmin": 568,
+                    "ymin": 262,
+                    "xmax": 600,
+                    "ymax": 287
                 },
                 {
                     "xmin": 183,
-                    "ymin": 104,
-                    "xmax": 240,
+                    "ymin": 107,
+                    "xmax": 239,
                     "ymax": 127
-                },
-                {
-                    "xmin": 85,
-                    "ymin": 229,
-                    "xmax": 118,
-                    "ymax": 268
-                },
-                {
-                    "xmin": 46,
-                    "ymin": 72,
-                    "xmax": 107,
-                    "ymax": 104
                 }
             ]
         },
         {
             "file_name": "IMG_20201127_002953.jpg",
             "num_colors": 4,
-            "num_detections": 9,
+            "num_detections": 8,
             "detected_objects": [
                 {
                     "xmin": 60,
@@ -938,19 +926,13 @@
                     "ymin": 0,
                     "xmax": 27,
                     "ymax": 47
-                },
-                {
-                    "xmin": 401,
-                    "ymin": 177,
-                    "xmax": 445,
-                    "ymax": 188
                 }
             ]
         },
         {
             "file_name": "IMG_20201127_002957.jpg",
             "num_colors": 6,
-            "num_detections": 10,
+            "num_detections": 9,
             "detected_objects": [
                 {
                     "xmin": 84,
@@ -999,12 +981,6 @@
                     "ymin": 255,
                     "xmax": 255,
                     "ymax": 301
-                },
-                {
-                    "xmin": 193,
-                    "ymin": 283,
-                    "xmax": 215,
-                    "ymax": 314
                 },
                 {
                     "xmin": 278,
@@ -1102,11 +1078,17 @@
         },
         {
             "file_name": "IMG_20201127_003844.jpg",
-            "num_colors": 3,
-            "num_detections": 13,
+            "num_colors": 2,
+            "num_detections": 9,
             "detected_objects": [
                 {
-                    "xmin": 401,
+                    "xmin": 132,
+                    "ymin": 71,
+                    "xmax": 255,
+                    "ymax": 178
+                },
+                {
+                    "xmin": 400,
                     "ymin": 324,
                     "xmax": 519,
                     "ymax": 392
@@ -1118,34 +1100,28 @@
                     "ymax": 429
                 },
                 {
-                    "xmin": 90,
-                    "ymin": 26,
-                    "xmax": 163,
-                    "ymax": 85
+                    "xmin": 454,
+                    "ymin": 179,
+                    "xmax": 531,
+                    "ymax": 270
                 },
                 {
-                    "xmin": 234,
+                    "xmin": 233,
                     "ymin": 197,
                     "xmax": 315,
                     "ymax": 269
                 },
                 {
-                    "xmin": 311,
+                    "xmin": 90,
+                    "ymin": 26,
+                    "xmax": 164,
+                    "ymax": 86
+                },
+                {
+                    "xmin": 309,
                     "ymin": 147,
                     "xmax": 356,
-                    "ymax": 183
-                },
-                {
-                    "xmin": 618,
-                    "ymin": 0,
-                    "xmax": 624,
-                    "ymax": 70
-                },
-                {
-                    "xmin": 132,
-                    "ymin": 71,
-                    "xmax": 255,
-                    "ymax": 177
+                    "ymax": 184
                 },
                 {
                     "xmin": 317,
@@ -1154,41 +1130,17 @@
                     "ymax": 338
                 },
                 {
-                    "xmin": 15,
-                    "ymin": 234,
-                    "xmax": 63,
-                    "ymax": 354
-                },
-                {
-                    "xmin": 456,
-                    "ymin": 179,
-                    "xmax": 531,
-                    "ymax": 270
-                },
-                {
-                    "xmin": 15,
-                    "ymin": 108,
-                    "xmax": 91,
-                    "ymax": 172
-                },
-                {
                     "xmin": 1,
-                    "ymin": 31,
-                    "xmax": 11,
-                    "ymax": 168
-                },
-                {
-                    "xmin": 26,
-                    "ymin": 398,
-                    "xmax": 32,
-                    "ymax": 468
+                    "ymin": 26,
+                    "xmax": 63,
+                    "ymax": 369
                 }
             ]
         },
         {
             "file_name": "IMG_20201127_140637.jpg",
-            "num_colors": 6,
-            "num_detections": 14,
+            "num_colors": 5,
+            "num_detections": 13,
             "detected_objects": [
                 {
                     "xmin": 0,
@@ -1257,12 +1209,6 @@
                     "ymax": 48
                 },
                 {
-                    "xmin": 259,
-                    "ymin": 267,
-                    "xmax": 273,
-                    "ymax": 300
-                },
-                {
                     "xmin": 258,
                     "ymin": 61,
                     "xmax": 280,
@@ -1279,7 +1225,7 @@
         {
             "file_name": "IMG_20201127_140925.jpg",
             "num_colors": 7,
-            "num_detections": 12,
+            "num_detections": 11,
             "detected_objects": [
                 {
                     "xmin": 167,
@@ -1334,12 +1280,6 @@
                     "ymin": 355,
                     "xmax": 296,
                     "ymax": 410
-                },
-                {
-                    "xmin": 171,
-                    "ymin": 112,
-                    "xmax": 197,
-                    "ymax": 143
                 },
                 {
                     "xmin": 243,
@@ -1413,7 +1353,7 @@
         {
             "file_name": "IMG_20201127_233719.jpg",
             "num_colors": 5,
-            "num_detections": 14,
+            "num_detections": 13,
             "detected_objects": [
                 {
                     "xmin": 322,
@@ -1492,12 +1432,6 @@
                     "ymin": 96,
                     "xmax": 141,
                     "ymax": 184
-                },
-                {
-                    "xmin": 177,
-                    "ymin": 255,
-                    "xmax": 189,
-                    "ymax": 299
                 }
             ]
         },
@@ -1553,7 +1487,7 @@
         {
             "file_name": "IMG_20201127_233822.jpg",
             "num_colors": 4,
-            "num_detections": 12,
+            "num_detections": 10,
             "detected_objects": [
                 {
                     "xmin": 374,
@@ -1610,18 +1544,6 @@
                     "ymax": 375
                 },
                 {
-                    "xmin": 105,
-                    "ymin": 309,
-                    "xmax": 134,
-                    "ymax": 328
-                },
-                {
-                    "xmin": 449,
-                    "ymin": 0,
-                    "xmax": 486,
-                    "ymax": 13
-                },
-                {
                     "xmin": 484,
                     "ymin": 249,
                     "xmax": 547,
@@ -1632,34 +1554,28 @@
         {
             "file_name": "IMG_20201127_234032.jpg",
             "num_colors": 4,
-            "num_detections": 12,
+            "num_detections": 9,
             "detected_objects": [
-                {
-                    "xmin": 56,
-                    "ymin": 64,
-                    "xmax": 179,
-                    "ymax": 197
-                },
-                {
-                    "xmin": 445,
-                    "ymin": 426,
-                    "xmax": 624,
-                    "ymax": 468
-                },
                 {
                     "xmin": 396,
                     "ymin": 128,
                     "xmax": 472,
-                    "ymax": 216
+                    "ymax": 217
                 },
                 {
-                    "xmin": 181,
-                    "ymin": 8,
-                    "xmax": 233,
-                    "ymax": 79
+                    "xmin": 494,
+                    "ymin": 245,
+                    "xmax": 568,
+                    "ymax": 382
                 },
                 {
-                    "xmin": 22,
+                    "xmin": 284,
+                    "ymin": 37,
+                    "xmax": 332,
+                    "ymax": 152
+                },
+                {
+                    "xmin": 19,
                     "ymin": 35,
                     "xmax": 64,
                     "ymax": 138
@@ -1667,51 +1583,39 @@
                 {
                     "xmin": 62,
                     "ymin": 388,
-                    "xmax": 97,
-                    "ymax": 437
+                    "xmax": 102,
+                    "ymax": 444
                 },
                 {
-                    "xmin": 229,
-                    "ymin": 286,
+                    "xmin": 56,
+                    "ymin": 64,
+                    "xmax": 179,
+                    "ymax": 197
+                },
+                {
+                    "xmin": 195,
+                    "ymin": 264,
                     "xmax": 271,
                     "ymax": 345
                 },
                 {
-                    "xmin": 284,
-                    "ymin": 38,
-                    "xmax": 332,
-                    "ymax": 152
+                    "xmin": 180,
+                    "ymin": 7,
+                    "xmax": 233,
+                    "ymax": 79
                 },
                 {
-                    "xmin": 196,
-                    "ymin": 313,
-                    "xmax": 241,
-                    "ymax": 345
-                },
-                {
-                    "xmin": 229,
-                    "ymin": 262,
-                    "xmax": 267,
-                    "ymax": 285
-                },
-                {
-                    "xmin": 494,
-                    "ymin": 246,
-                    "xmax": 549,
-                    "ymax": 382
-                },
-                {
-                    "xmin": 449,
-                    "ymin": 97,
+                    "xmin": 421,
+                    "ymin": 88,
                     "xmax": 491,
-                    "ymax": 144
+                    "ymax": 131
                 }
             ]
         },
         {
             "file_name": "IMG_20201127_234054.jpg",
             "num_colors": 4,
-            "num_detections": 7,
+            "num_detections": 8,
             "detected_objects": [
                 {
                     "xmin": 0,
@@ -1726,34 +1630,40 @@
                     "ymax": 157
                 },
                 {
-                    "xmin": 303,
+                    "xmin": 67,
+                    "ymin": 163,
+                    "xmax": 123,
+                    "ymax": 217
+                },
+                {
+                    "xmin": 238,
+                    "ymin": 326,
+                    "xmax": 300,
+                    "ymax": 434
+                },
+                {
+                    "xmin": 242,
+                    "ymin": 272,
+                    "xmax": 273,
+                    "ymax": 310
+                },
+                {
+                    "xmin": 345,
+                    "ymin": 193,
+                    "xmax": 395,
+                    "ymax": 256
+                },
+                {
+                    "xmin": 306,
                     "ymin": 348,
-                    "xmax": 372,
-                    "ymax": 408
-                },
-                {
-                    "xmin": 249,
-                    "ymin": 328,
-                    "xmax": 310,
-                    "ymax": 422
-                },
-                {
-                    "xmin": 229,
-                    "ymin": 285,
-                    "xmax": 271,
-                    "ymax": 309
+                    "xmax": 373,
+                    "ymax": 397
                 },
                 {
                     "xmin": 329,
-                    "ymin": 193,
-                    "xmax": 395,
-                    "ymax": 255
-                },
-                {
-                    "xmin": 67,
-                    "ymin": 163,
-                    "xmax": 122,
-                    "ymax": 217
+                    "ymin": 216,
+                    "xmax": 354,
+                    "ymax": 239
                 }
             ]
         },
@@ -1794,27 +1704,27 @@
             "num_detections": 4,
             "detected_objects": [
                 {
-                    "xmin": 130,
-                    "ymin": 463,
-                    "xmax": 234,
-                    "ymax": 581
+                    "xmin": 129,
+                    "ymin": 461,
+                    "xmax": 235,
+                    "ymax": 580
                 },
                 {
-                    "xmin": 247,
-                    "ymin": 246,
-                    "xmax": 312,
-                    "ymax": 334
+                    "xmin": 257,
+                    "ymin": 250,
+                    "xmax": 309,
+                    "ymax": 310
                 },
                 {
-                    "xmin": 408,
-                    "ymin": 187,
+                    "xmin": 414,
+                    "ymin": 190,
                     "xmax": 468,
-                    "ymax": 221
+                    "ymax": 213
                 },
                 {
-                    "xmin": 137,
-                    "ymin": 118,
-                    "xmax": 207,
+                    "xmin": 138,
+                    "ymin": 119,
+                    "xmax": 206,
                     "ymax": 178
                 }
             ]
@@ -1822,147 +1732,111 @@
         {
             "file_name": "IMG_20201127_234528.jpg",
             "num_colors": 4,
-            "num_detections": 11,
+            "num_detections": 7,
             "detected_objects": [
                 {
                     "xmin": 0,
-                    "ymin": 504,
+                    "ymin": 527,
                     "xmax": 468,
                     "ymax": 624
                 },
                 {
                     "xmin": 0,
                     "ymin": 402,
-                    "xmax": 127,
-                    "ymax": 528
+                    "xmax": 130,
+                    "ymax": 538
                 },
                 {
                     "xmin": 0,
                     "ymin": 177,
-                    "xmax": 95,
-                    "ymax": 292
+                    "xmax": 96,
+                    "ymax": 293
                 },
                 {
                     "xmin": 231,
                     "ymin": 179,
-                    "xmax": 346,
+                    "xmax": 347,
                     "ymax": 261
-                },
-                {
-                    "xmin": 155,
-                    "ymin": 34,
-                    "xmax": 312,
-                    "ymax": 128
                 },
                 {
                     "xmin": 301,
                     "ymin": 269,
-                    "xmax": 450,
+                    "xmax": 451,
                     "ymax": 419
                 },
                 {
-                    "xmin": 288,
-                    "ymin": 0,
-                    "xmax": 311,
-                    "ymax": 45
+                    "xmin": 155,
+                    "ymin": 12,
+                    "xmax": 309,
+                    "ymax": 128
                 },
                 {
-                    "xmin": 102,
+                    "xmin": 65,
                     "ymin": 287,
                     "xmax": 154,
                     "ymax": 376
-                },
-                {
-                    "xmin": 66,
-                    "ymin": 356,
-                    "xmax": 101,
-                    "ymax": 376
-                },
-                {
-                    "xmin": 119,
-                    "ymin": 268,
-                    "xmax": 144,
-                    "ymax": 303
-                },
-                {
-                    "xmin": 82,
-                    "ymin": 265,
-                    "xmax": 124,
-                    "ymax": 352
                 }
             ]
         },
         {
             "file_name": "IMG_20201127_234550.jpg",
-            "num_colors": 5,
-            "num_detections": 8,
+            "num_colors": 3,
+            "num_detections": 5,
             "detected_objects": [
                 {
-                    "xmin": 313,
-                    "ymin": 253,
+                    "xmin": 309,
+                    "ymin": 249,
                     "xmax": 468,
-                    "ymax": 393
+                    "ymax": 400
                 },
                 {
-                    "xmin": 132,
-                    "ymin": 38,
-                    "xmax": 226,
-                    "ymax": 139
-                },
-                {
-                    "xmin": 373,
-                    "ymin": 79,
+                    "xmin": 366,
+                    "ymin": 71,
                     "xmax": 468,
-                    "ymax": 184
-                },
-                {
-                    "xmin": 235,
-                    "ymin": 596,
-                    "xmax": 468,
-                    "ymax": 624
+                    "ymax": 193
                 },
                 {
                     "xmin": 189,
                     "ymin": 105,
-                    "xmax": 320,
+                    "xmax": 321,
                     "ymax": 289
                 },
                 {
-                    "xmin": 152,
-                    "ymin": 310,
-                    "xmax": 174,
-                    "ymax": 394
-                },
-                {
-                    "xmin": 1,
-                    "ymin": 337,
-                    "xmax": 23,
-                    "ymax": 361
+                    "xmin": 127,
+                    "ymin": 67,
+                    "xmax": 239,
+                    "ymax": 154
                 },
                 {
                     "xmin": 12,
-                    "ymin": 323,
-                    "xmax": 159,
-                    "ymax": 411
+                    "ymin": 308,
+                    "xmax": 174,
+                    "ymax": 412
                 }
             ]
         },
         {
             "file_name": "IMG_20201127_234607.jpg",
             "num_colors": 5,
-            "num_detections": 8,
+            "num_detections": 9,
             "detected_objects": [
                 {
-                    "xmin": 128,
-                    "ymin": 192,
-                    "xmax": 285,
-                    "ymax": 338
+                    "xmin": 41,
+                    "ymin": 344,
+                    "xmax": 201,
+                    "ymax": 478
                 },
                 {
                     "xmin": 208,
                     "ymin": 387,
-                    "xmax": 315,
-                    "ymax": 554
+                    "xmax": 320,
+                    "ymax": 560
+                },
+                {
+                    "xmin": 128,
+                    "ymin": 192,
+                    "xmax": 286,
+                    "ymax": 338
                 },
                 {
                     "xmin": 206,
@@ -1983,22 +1857,22 @@
                     "ymax": 316
                 },
                 {
-                    "xmin": 41,
-                    "ymin": 378,
-                    "xmax": 201,
-                    "ymax": 478
-                },
-                {
                     "xmin": 388,
                     "ymin": 52,
                     "xmax": 456,
-                    "ymax": 117
+                    "ymax": 118
                 },
                 {
                     "xmin": 0,
                     "ymin": 538,
                     "xmax": 196,
                     "ymax": 624
+                },
+                {
+                    "xmin": 450,
+                    "ymin": 25,
+                    "xmax": 468,
+                    "ymax": 54
                 }
             ]
         },

@@ -13,7 +13,7 @@ def get_image_complexity(gray, threshold=300):
         complexity = "Simple"
     else:
         complexity = "Complex"
-    return complexity
+    return complexity, num_keypoints
 
 # ----------------------------------------------
 
@@ -34,10 +34,10 @@ def limits(background_color, hue_tolerance, saturation_tolerance, value_toleranc
     upper_background = np.array([upper_limit_0, upper_limit_1, upper_limit_2])
     return lower_background, upper_background
 
-def background_median(hsv, hue_tolerance=100, saturation_tolerance=100, value_tolerance=100, blur_kernel=(5, 5)):
+def background_median(hsv, hue_tolerance=20, saturation_tolerance=90, value_tolerance=90, blur_kernel=(5, 5)):
     background_color = median_background(hsv)
     lower_background, upper_background = limits(background_color, hue_tolerance, saturation_tolerance, value_tolerance)
-    gaussian = cv2.GaussianBlur(hsv, blur_kernel, 0)
+    gaussian = cv2.blur(hsv, blur_kernel)
     gray_mask = cv2.inRange(gaussian, lower_background, upper_background)
     non_gray_mask = cv2.bitwise_not(gray_mask)
     non_gray_mask = cv2.erode(non_gray_mask, None, iterations=3)
@@ -63,7 +63,7 @@ def canny_edges(gray, blur_kernel=(7, 7), low_threshold=100, high_threshold=200)
 
 # ----------------------------------------------
 
-def grab_cut(image, blur_kernel=(5, 5), bb_size=50, iterations=5):
+def grab_cut(image, blur_kernel=(7, 7), bb_size=50, iterations=5):
     gaussian = cv2.GaussianBlur(image, blur_kernel, 0)
     gaussian = image
     mask = np.zeros(gaussian.shape[:2], np.uint8)

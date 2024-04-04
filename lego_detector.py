@@ -32,9 +32,9 @@ def process_image(image_path):
 
     bg_median_mask = background_median(hsv, hue_tolerance, saturation_tolerance, value_tolerance, blur_kernel)
 
-    blur_kernel = (7, 7)
+    blur_kernel = (5, 5)
     low_threshold = 40
-    high_threshold = 120
+    high_threshold = 140
     if complexity == 2:
         blur_kernel = (5, 5)
         low_threshold = 85

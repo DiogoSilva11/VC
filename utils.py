@@ -110,7 +110,7 @@ def contour_miss(x, y, w, h, image_shape, num_keypoints):
         return True
     return False
 
-def filter_contours(contours, original_image, min_area=400, min_length=15, ratio_threshold=0.3):
+def filter_contours(contours, original_image, min_area=400, min_length=15, ratio_threshold=0.4):
     contours = sorted(contours, key=cv2.contourArea, reverse=True)
     removed = []
     sift = cv2.SIFT_create()

@@ -139,8 +139,8 @@ def similar_colors(color1, color2):
 
     TOLERANCE_LAB = 12.5
 
-    display_color(color1, color1)
-    display_color(color2, color2)
+    #display_color(color1, color1)
+    #display_color(color2, color2)
 
     # Converting colors from BGR to Lab color space
     #color bgr to rgb
@@ -160,7 +160,7 @@ def similar_colors(color1, color2):
     similar = False
     if(diff <= TOLERANCE_LAB):
         similar = True
-        print("Similar", similar)
+    return similar
 
 
 
@@ -182,7 +182,7 @@ def display_color(color, index):
     height, width = 100, 100
     color_image = np.zeros((height, width, 3), np.uint8)
     color_image[:, :] = color
-    #cv2.imshow(str(index), color_image)
+    cv2.imshow(str(index), color_image)
 
 # ----------------------------------------------
 
@@ -194,10 +194,26 @@ def central_area_color(roi):
     height, width, _ = roi.shape
     central_area = roi[height//4:3*height//4, width//4:3*width//4]
     central_color = median_color(central_area)
+
+    display_color(central_color,central_color)
+
+    cv2.imshow("ROI",roi)
+
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
     return central_color
 
 def median_color(roi):
     median_color = np.median(roi, axis=(0, 1)).astype(int)
     return median_color
+
+
+def mean_color(roi):
+    mean_color = np.mean(roi, axis=(0, 1)).astype(int)
+    return mean_color
+
+
+
 
 # ----------------------------------------------

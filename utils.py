@@ -194,14 +194,7 @@ def central_area_color(roi):
     height, width, _ = roi.shape
     central_area = roi[height//4:3*height//4, width//4:3*width//4]
     central_color = median_color(central_area)
-
-    display_color(central_color,central_color)
-
-    cv2.imshow("ROI",roi)
-
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-
+    
     return central_color
 
 def median_color(roi):

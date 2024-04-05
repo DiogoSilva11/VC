@@ -1,8 +1,11 @@
+# ----------------------------------------------
+
 import cv2
 import os
 import json
 from utils import *
 
+# ----------------------------------------------
 
 def process_image(image_path):
     original_image = cv2.imread(image_path)
@@ -10,7 +13,7 @@ def process_image(image_path):
     image = original_image.copy()
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
-    complexity, _ = get_image_complexity(gray)
+    complexity, _ = get_image_complexity(original_image)
 
     hue_tolerance = 20
     saturation_tolerance = 90
@@ -29,9 +32,9 @@ def process_image(image_path):
 
     bg_median_mask = background_median(hsv, hue_tolerance, saturation_tolerance, value_tolerance, blur_kernel)
 
-    blur_kernel = (7, 7)
+    blur_kernel = (5, 5)
     low_threshold = 40
-    high_threshold = 120
+    high_threshold = 140
     if complexity == 2:
         blur_kernel = (5, 5)
         low_threshold = 85
@@ -46,7 +49,7 @@ def process_image(image_path):
     final_mask = cv2.bitwise_or(bg_median_mask, canny_mask)
 
     contours, _ = cv2.findContours(final_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    contours = filter_contours(contours)
+    contours = filter_contours(contours, original_image)
     detections = []
     colors = []
     color_index = 0
@@ -60,15 +63,13 @@ def process_image(image_path):
         colors.append(lego_color)
     unique_colors = count_unique_colors(colors)
 
-
-    print(image_path)
-
-    cv2.imshow('Image', image)
+    cv2.imshow("Image",image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
     return len(detections), detections, unique_colors
 
+# ----------------------------------------------
 
 if __name__ == "__main__":
     images_dir = './samples'
@@ -92,3 +93,5 @@ if __name__ == "__main__":
     with open(output_file, 'w') as json_out:
         json.dump(output_data, json_out, indent=4)
     print("Results saved to", output_file)
+
+# ----------------------------------------------

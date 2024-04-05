@@ -3,11 +3,12 @@
 import cv2
 import numpy as np
 from skimage.color import deltaE_ciede2000, rgb2lab
+
 # ----------------------------------------------
 
-def get_image_complexity(gray, threshold1=280, threshold2=900):
+def get_image_complexity(image, threshold1=280, threshold2=900):
     sift = cv2.SIFT_create()
-    keypoints, _ = sift.detectAndCompute(gray, None)
+    keypoints, _ = sift.detectAndCompute(image, None)
     num_keypoints = len(keypoints)
     if num_keypoints < threshold1:
         complexity = 1
@@ -64,7 +65,7 @@ def canny_edges(gray, blur_kernel=(7, 7), low_threshold=100, high_threshold=200)
 
 # ----------------------------------------------
 
-def grab_cut(image, blur_kernel=(7, 7), bb_size=50, iterations=5):
+def grab_cut(image, blur_kernel=(7, 7), bb_size=10, iterations=3):
     gaussian = cv2.GaussianBlur(image, blur_kernel, 0)
     mask = np.zeros(gaussian.shape[:2], np.uint8)
     bb = (bb_size, bb_size, gaussian.shape[1] - bb_size, gaussian.shape[0] - bb_size)
@@ -100,9 +101,20 @@ def is_intersected(square1, square2, ratio_threshold):
     else:
         return False
 
-def filter_contours(contours, min_area=400, min_length=15, ratio_threshold=0.4):
+def contour_miss(x, y, w, h, image_shape, num_keypoints):
+    image_width, image_height = image_shape
+    top_left = x < 3 and y < 3
+    top_right = x + w > image_width - 3 and y < 3
+    bottom_left = x < 3 and y + h > image_height - 3
+    bottom_right = x + w > image_width - 3 and y + h > image_height - 3
+    if (top_left or top_right or bottom_left or bottom_right) and (num_keypoints == 0 or num_keypoints > 250):
+        return True
+    return False
+
+def filter_contours(contours, original_image, min_area=400, min_length=15, ratio_threshold=0.4):
     contours = sorted(contours, key=cv2.contourArea, reverse=True)
     removed = []
+    sift = cv2.SIFT_create()
     for i, contour in enumerate(contours):
         x, y, w, h = cv2.boundingRect(contour)
         inside_other_box = False
@@ -113,12 +125,15 @@ def filter_contours(contours, min_area=400, min_length=15, ratio_threshold=0.4):
                 break
             elif is_intersected((prev_x, prev_y, prev_w, prev_h),(x,y,w,h), ratio_threshold):
                 removed.append(j)
-        if inside_other_box or w * h < min_area or w < min_length or h < min_length:
+        roi = original_image[y:y+h, x:x+w]
+        keypoints, _ = sift.detectAndCompute(roi, None)
+        if inside_other_box or w * h < min_area or w < min_length or h < min_length or contour_miss(x, y, w, h, original_image.shape[:2], len(keypoints)):
             removed.append(i)
     contours = [contour for i, contour in enumerate(contours) if i not in removed]
     return contours
 
 # ----------------------------------------------
+
 
 def similar_colors(color1, color2):
 
@@ -147,10 +162,6 @@ def similar_colors(color1, color2):
         similar = True
         print("Similar", similar)
 
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-
-    return similar
 
 
 def count_unique_colors(object_colors):
@@ -171,10 +182,10 @@ def display_color(color, index):
     height, width = 100, 100
     color_image = np.zeros((height, width, 3), np.uint8)
     color_image[:, :] = color
-    cv2.imshow(str(index), color_image)
-
+    #cv2.imshow(str(index), color_image)
 
 # ----------------------------------------------
+
 def calculate_lego_color(roi):
     lego_color = central_area_color(roi)
     return lego_color
@@ -189,3 +200,4 @@ def median_color(roi):
     median_color = np.median(roi, axis=(0, 1)).astype(int)
     return median_color
 
+# ----------------------------------------------

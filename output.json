@@ -131,7 +131,7 @@
         },
         {
             "file_name": "2_lXUX_original-test_1609981023743.jpg",
-            "num_colors": 1,
+            "num_colors": 2,
             "num_detections": 2,
             "detected_objects": [
                 {
@@ -169,7 +169,7 @@
         },
         {
             "file_name": "IMG_20201127_001711.jpg",
-            "num_colors": 4,
+            "num_colors": 8,
             "num_detections": 9,
             "detected_objects": [
                 {
@@ -230,7 +230,7 @@
         },
         {
             "file_name": "IMG_20201127_001800.jpg",
-            "num_colors": 4,
+            "num_colors": 8,
             "num_detections": 9,
             "detected_objects": [
                 {
@@ -291,7 +291,7 @@
         },
         {
             "file_name": "IMG_20201127_001818.jpg",
-            "num_colors": 5,
+            "num_colors": 7,
             "num_detections": 9,
             "detected_objects": [
                 {
@@ -352,7 +352,7 @@
         },
         {
             "file_name": "IMG_20201127_001831.jpg",
-            "num_colors": 3,
+            "num_colors": 8,
             "num_detections": 9,
             "detected_objects": [
                 {
@@ -450,7 +450,7 @@
         },
         {
             "file_name": "IMG_20201127_001904.jpg",
-            "num_colors": 2,
+            "num_colors": 4,
             "num_detections": 4,
             "detected_objects": [
                 {
@@ -481,7 +481,7 @@
         },
         {
             "file_name": "IMG_20201127_002055.jpg",
-            "num_colors": 7,
+            "num_colors": 13,
             "num_detections": 18,
             "detected_objects": [
                 {
@@ -596,7 +596,7 @@
         },
         {
             "file_name": "IMG_20201127_002243.jpg",
-            "num_colors": 2,
+            "num_colors": 5,
             "num_detections": 6,
             "detected_objects": [
                 {
@@ -639,7 +639,7 @@
         },
         {
             "file_name": "IMG_20201127_002309.jpg",
-            "num_colors": 4,
+            "num_colors": 10,
             "num_detections": 11,
             "detected_objects": [
                 {
@@ -712,7 +712,7 @@
         },
         {
             "file_name": "IMG_20201127_002319.jpg",
-            "num_colors": 3,
+            "num_colors": 5,
             "num_detections": 8,
             "detected_objects": [
                 {
@@ -767,7 +767,7 @@
         },
         {
             "file_name": "IMG_20201127_002506.jpg",
-            "num_colors": 3,
+            "num_colors": 5,
             "num_detections": 5,
             "detected_objects": [
                 {
@@ -804,7 +804,7 @@
         },
         {
             "file_name": "IMG_20201127_002529.jpg",
-            "num_colors": 4,
+            "num_colors": 6,
             "num_detections": 8,
             "detected_objects": [
                 {
@@ -859,7 +859,7 @@
         },
         {
             "file_name": "IMG_20201127_002953.jpg",
-            "num_colors": 4,
+            "num_colors": 7,
             "num_detections": 8,
             "detected_objects": [
                 {
@@ -914,7 +914,7 @@
         },
         {
             "file_name": "IMG_20201127_002957.jpg",
-            "num_colors": 6,
+            "num_colors": 10,
             "num_detections": 11,
             "detected_objects": [
                 {
@@ -987,7 +987,7 @@
         },
         {
             "file_name": "IMG_20201127_003003.jpg",
-            "num_colors": 6,
+            "num_colors": 7,
             "num_detections": 8,
             "detected_objects": [
                 {
@@ -1042,7 +1042,7 @@
         },
         {
             "file_name": "IMG_20201127_003218.jpg",
-            "num_colors": 2,
+            "num_colors": 4,
             "num_detections": 4,
             "detected_objects": [
                 {
@@ -1073,7 +1073,7 @@
         },
         {
             "file_name": "IMG_20201127_003844.jpg",
-            "num_colors": 3,
+            "num_colors": 9,
             "num_detections": 9,
             "detected_objects": [
                 {
@@ -1134,7 +1134,7 @@
         },
         {
             "file_name": "IMG_20201127_140637.jpg",
-            "num_colors": 4,
+            "num_colors": 13,
             "num_detections": 17,
             "detected_objects": [
                 {
@@ -1243,7 +1243,7 @@
         },
         {
             "file_name": "IMG_20201127_140925.jpg",
-            "num_colors": 4,
+            "num_colors": 7,
             "num_detections": 11,
             "detected_objects": [
                 {
@@ -1316,7 +1316,7 @@
         },
         {
             "file_name": "IMG_20201127_233659.jpg",
-            "num_colors": 2,
+            "num_colors": 9,
             "num_detections": 10,
             "detected_objects": [
                 {
@@ -1383,7 +1383,7 @@
         },
         {
             "file_name": "IMG_20201127_233719.jpg",
-            "num_colors": 4,
+            "num_colors": 10,
             "num_detections": 14,
             "detected_objects": [
                 {
@@ -1474,7 +1474,7 @@
         },
         {
             "file_name": "IMG_20201127_233804.jpg",
-            "num_colors": 5,
+            "num_colors": 7,
             "num_detections": 7,
             "detected_objects": [
                 {
@@ -1523,7 +1523,7 @@
         },
         {
             "file_name": "IMG_20201127_233822.jpg",
-            "num_colors": 4,
+            "num_colors": 6,
             "num_detections": 8,
             "detected_objects": [
                 {
@@ -1578,7 +1578,7 @@
         },
         {
             "file_name": "IMG_20201127_234032.jpg",
-            "num_colors": 4,
+            "num_colors": 8,
             "num_detections": 8,
             "detected_objects": [
                 {
@@ -1676,7 +1676,7 @@
         },
         {
             "file_name": "IMG_20201127_234114.jpg",
-            "num_colors": 3,
+            "num_colors": 4,
             "num_detections": 4,
             "detected_objects": [
                 {
@@ -1738,7 +1738,7 @@
         },
         {
             "file_name": "IMG_20201127_234528.jpg",
-            "num_colors": 4,
+            "num_colors": 6,
             "num_detections": 7,
             "detected_objects": [
                 {
@@ -1787,7 +1787,7 @@
         },
         {
             "file_name": "IMG_20201127_234550.jpg",
-            "num_colors": 3,
+            "num_colors": 4,
             "num_detections": 5,
             "detected_objects": [
                 {
@@ -1824,7 +1824,7 @@
         },
         {
             "file_name": "IMG_20201127_234607.jpg",
-            "num_colors": 5,
+            "num_colors": 8,
             "num_detections": 9,
             "detected_objects": [
                 {
@@ -1885,7 +1885,7 @@
         },
         {
             "file_name": "IMG_20201127_234711.jpg",
-            "num_colors": 2,
+            "num_colors": 3,
             "num_detections": 5,
             "detected_objects": [
                 {
@@ -1922,7 +1922,7 @@
         },
         {
             "file_name": "IMG_20201127_234932.jpg",
-            "num_colors": 3,
+            "num_colors": 4,
             "num_detections": 5,
             "detected_objects": [
                 {
@@ -1990,7 +1990,7 @@
         },
         {
             "file_name": "IMG_20201127_234959.jpg",
-            "num_colors": 4,
+            "num_colors": 5,
             "num_detections": 5,
             "detected_objects": [
                 {
@@ -2027,7 +2027,7 @@
         },
         {
             "file_name": "IMG_20201127_235029.jpg",
-            "num_colors": 3,
+            "num_colors": 4,
             "num_detections": 4,
             "detected_objects": [
                 {
@@ -2058,7 +2058,7 @@
         },
         {
             "file_name": "IMG_20201127_235047.jpg",
-            "num_colors": 2,
+            "num_colors": 3,
             "num_detections": 3,
             "detected_objects": [
                 {
@@ -2083,7 +2083,7 @@
         },
         {
             "file_name": "IMG_20201127_235241.jpg",
-            "num_colors": 2,
+            "num_colors": 5,
             "num_detections": 5,
             "detected_objects": [
                 {
@@ -2120,7 +2120,7 @@
         },
         {
             "file_name": "IMG_20201127_235418.jpg",
-            "num_colors": 4,
+            "num_colors": 5,
             "num_detections": 5,
             "detected_objects": [
                 {
@@ -2157,7 +2157,7 @@
         },
         {
             "file_name": "IMG_20201203_091752.jpg",
-            "num_colors": 4,
+            "num_colors": 5,
             "num_detections": 7,
             "detected_objects": [
                 {

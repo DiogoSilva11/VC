@@ -2,8 +2,7 @@
 
 import cv2
 import numpy as np
-import time
-
+from skimage.color import deltaE_ciede2000, rgb2lab
 # ----------------------------------------------
 
 def get_image_complexity(gray, threshold1=280, threshold2=900):
@@ -121,26 +120,45 @@ def filter_contours(contours, min_area=400, min_length=15, ratio_threshold=0.4):
 
 # ----------------------------------------------
 
-def similar_colors(color1, color2, tolerance):
-    distance = np.linalg.norm(color1 - color2)
+def similar_colors(color1, color2):
 
-    """
-    display_color(color1,color1)
-    display_color(color2,color2)
-    print("Similar:", distance <= tolerance, "Distance:", distance)
+    TOLERANCE_LAB = 12.5
+
+    display_color(color1, color1)
+    display_color(color2, color2)
+
+    # Converting colors from BGR to Lab color space
+    #color bgr to rgb
+    color1_RGB = color1[::-1]
+    color2_RGB = color2[::-1]
+
+    color1_RGB = np.uint8([[[color1_RGB[0],color1_RGB[1],color1_RGB[2]]]])
+    color2_RGB = np.uint8([[[color2_RGB[0], color2_RGB[1], color2_RGB[2]]]])
+
+    color1_LAB = rgb2lab(color1_RGB)
+    color2_LAB = rgb2lab(color2_RGB)
+
+    # Calculating the difference between colors using the CIEDE2000 formula
+    diff = deltaE_ciede2000(color1_LAB, color2_LAB)
+    print("Difference:", float(diff))
+
+    similar = False
+    if(diff <= TOLERANCE_LAB):
+        similar = True
+        print("Similar", similar)
+
     cv2.waitKey(0)
-    cv2.destroyWindow(str(color1))
-    cv2.destroyWindow(str(color2))
-    """
-    return distance <= tolerance
+    cv2.destroyAllWindows()
+
+    return similar
 
 
-def count_unique_colors(object_colors, tolerance=30):
+def count_unique_colors(object_colors):
     unique_colors = []
     for color in object_colors:
         is_unique = True
         for existing_color in unique_colors:
-            if similar_colors(color, existing_color, tolerance):
+            if similar_colors(color, existing_color):
                 is_unique = False
                 break
         if is_unique:

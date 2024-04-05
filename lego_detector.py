@@ -60,10 +60,13 @@ def process_image(image_path):
         colors.append(lego_color)
     unique_colors = count_unique_colors(colors)
 
+
     print(image_path)
+
     cv2.imshow('Image', image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+
     return len(detections), detections, unique_colors
 
 

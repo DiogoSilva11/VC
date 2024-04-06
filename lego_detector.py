@@ -4,6 +4,7 @@ import cv2
 import os
 import json
 from utils import *
+import sys
 
 # ----------------------------------------------
 
@@ -63,9 +64,9 @@ def process_image(image_path):
         colors.append(lego_color)
     unique_colors = count_unique_colors(colors)
 
-    cv2.imshow("Image",image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    #cv2.imshow("Image",image)
+    #cv2.waitKey(0)
+    #cv2.destroyAllWindows()
 
     return len(detections), detections, unique_colors
 
@@ -75,7 +76,8 @@ if __name__ == "__main__":
     images_dir = './samples'
     input_file = 'input.json'
     output_file = 'output.json'
-
+    if len(sys.argv) > 1:
+        input_file = sys.argv[1]
     with open(input_file, 'r') as json_file:
         data = json.load(json_file)
     image_paths = data['image_files']
